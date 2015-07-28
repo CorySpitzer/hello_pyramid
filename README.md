@@ -7,7 +7,8 @@
 
 ###### Installation:
   * Install virtualenv:
-    * `easy_install virtualenv` or `sudo easy_install virtualenv` if you get a permissions error
+    * `easy_install virtualenv` 
+      * If you get a permissions error you can try `easy_install --user virtualenv` (which will install in your home directory - use `easy_install --help` for more options) or `sudo easy_install virtualenv` if you have root permissions
     * `export VENV=~/env`
     * `virtualenv $VENV`
   * Install Pyramid Into the Virtual Python Environment:
